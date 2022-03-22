@@ -7,7 +7,7 @@
 		<div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-4"></div>
-				<div class="col-sm-4 col-xs-12 coppyright" style="padding: 0px">&copy; 2020
+				<div class="col-sm-4 col-xs-12 coppyright" style="padding: 0px">&copy; 2022
 					BookYourTiffin. All Rights Reserved.</div>
 			</div>
 		</div>

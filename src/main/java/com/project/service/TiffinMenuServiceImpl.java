@@ -18,7 +18,6 @@ public class TiffinMenuServiceImpl implements TiffinMenuService {
 
 	public void saveTiffinMenu(TiffinMenuVO tiffinMenuVO) {
 		this.TiffinMenuDAO.saveTiffinMenu(tiffinMenuVO);
-
 	}
 
 	public List<?> getTiffinMenu(int loginId) {

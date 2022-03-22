@@ -65,6 +65,7 @@ public class OrderController {
 
 	@GetMapping("user/order")
 	public ModelAndView order(@RequestParam int id, LoginVO loginvo1, ModelMap map) {
+		System.out.println(id);
 		List<?> mealList = this.mealService.getMeal();
 		List<?> meal = this.mealService.getMealByVendor(id);
 

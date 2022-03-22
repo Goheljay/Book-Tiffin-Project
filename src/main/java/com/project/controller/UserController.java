@@ -85,7 +85,10 @@ public class UserController {
 		List<?> ratingList = this.feedbackService.getVendorAvgFeedback();
 		List<?> mealList1 = this.menuService.getTiffinMenuVendorWise();
 
-		System.out.println(new Gson().toJson(ratingList));
+		System.out.println(new Gson().toJson(vendorList));//what product offer
+		System.out.println(new Gson().toJson(mealList));//vendor details
+		System.out.println(new Gson().toJson(ratingList));//rtating
+		System.out.println(new Gson().toJson(mealList1));//getTiffinMenuVendorWise
 		
 		return new ModelAndView("user/viewVendor", "vendorList", vendorList).addObject("mealList", mealList).addObject("mealList1", mealList1);
 	}
