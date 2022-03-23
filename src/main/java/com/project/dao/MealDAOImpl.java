@@ -48,7 +48,8 @@ public class MealDAOImpl implements MealDAO {
 	public List<?> getMealByVendor(int id) {
 		Session session = this.sessionFactory.getCurrentSession();
 		Query query = session
-				.createQuery("from TiffinMenuVO where status = true and loginVO = " + id + " group by mealVO");
+				.createQuery("from TiffinMenuVO where status = true and loginVO = " + id );
+		//+ " group by mealVO"
 		List<?> mealList = query.list();
 		return mealList;
 	}

@@ -30,7 +30,7 @@
 								<%-- <li> <a class="level-top" href="<%=request.getContextPath()%>/user/addFeedback"><span>Feedback</span></a></li>
                       --%>
 								<li class="fl-custom-tabmenulink"><a class="level-top"
-									href="<%=request.getContextPath()%>/user/viewVendor"><span>Vendors��</span></a>
+									href="<%=request.getContextPath()%>/user/viewVendor"><span>Vendors</span></a>
 								</li>
 
 
